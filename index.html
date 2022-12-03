@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/ff9f44c5c5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <title>Document</title>
+
 </head>
 <body>
     <div>
@@ -15,21 +18,32 @@
                 <li><a href=""> Projetos </a></li>
             </ul>
             <div class="alterar-tema">
-                <button>Tema</button>
+                <button onclick="alterarTema()">Tema</button>
             </div>
         </nav>
         <header class="header">
             <div class="apresentacao">
                 <div class="mennsagem">
-                    <p>Dev <span></span></p>
+                    <p>Dev <span class="typed-text"></span> <span class="cursor">&nbsp;</span></p>
                 </div>
                 <div>
                     <h3>Wandeilson Gomes da Silva</h3>
                     <h4>Graduando em Análise e Desenvolvimento de Sistemas</h4>
                 </div>
                 <div class="redes-sociais">
-                    <i class="fa-brands fa-linkedin"></i>
-                    <i class="fa-brands fa-github"></i>
+                    <ul>
+                        <li>
+                            <a href="https://br.linkedin.com" target="_blank"> 
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Wandeilson" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+
+                        </li>
+                    </ul>
 
                 </div>
             </div>
@@ -55,7 +69,7 @@
                     </div>
                 </li>
 
-                <li>
+                <li class="projetos-itens">
                     <a href="https://codepen.io/tarcizo-leite-jr/pen/bGMMrNO" target="_blank">Clone</a>
                     <button class="minimizar" id="pj1" onclick="">Mostrar</button>
 
@@ -74,6 +88,6 @@
             <p>&copy; Todos os direitos reservados. Site Desenvolvido no Curso de Desenvolvimento WEB Básico. </p>
         </footer>
     </div>
-    <script src=""></script>
+    <script src="index.js"></script>
 </body>
 </html>
