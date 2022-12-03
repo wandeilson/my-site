@@ -2,25 +2,23 @@ function alterarTema(){
     document.body.classList.toggle("dark");
 }
 
-
 function mostrar(id){
-    let paraMostrar = document.getElementById("codigo-"+id)
+  let paraMostrar = document.getElementById("codigo-"+id);
 
-    if(paraMostrar.classList.contains('ativo') == true){
-        paraMostrar.classList.remove('ativo')
-        document.getElementById(id).innerHTML = "Mostrar"
-    }else{
-        paraMostrar.classList.add('ativo')
-        document.getElementById(id).innerHTML = "Ocultar"
-        
-    }
+  if(paraMostrar.classList.contains('ativo') == true){
+    paraMostrar.classList.remove('ativo');
+    document.getElementById(id).innerHTML = "Mostrar";
+  }else{
+    paraMostrar.classList.add('ativo');
+    document.getElementById(id).innerHTML = "Ocultar";
+  }
 }
 
 
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Web", "Front-End", "Java", "HTML", "CSS", "JavaScript"];
+const textArray = ["Front-end", "Web", "HTML", "CSS", "JavaScript", "Back-end", "Java", "Spring boot"];
 const typingDelay = 200;
 const erasingDelay = 100;
 const newTextDelay = 2000; // Delay between current and next text

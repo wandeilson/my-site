@@ -154,69 +154,20 @@ body{
     transform: 0.5;
 }
 
+.codigos{
+    display: none;
+}
+
+.codigos.ativo{
+    display: block;
+}
+
 footer{
     background-color: var(--menu-cor);
     padding: 40px;
     text-align: center;
     font-size: 'Recursive', sans-serif;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .mensagem{ 
